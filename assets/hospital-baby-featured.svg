@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 920">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f5f5f2"/>
+      <stop offset="100%" stop-color="#c3c7c6"/>
+    </linearGradient>
+    <linearGradient id="sheet" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f3f1ef"/>
+      <stop offset="100%" stop-color="#d2d0ce"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="920" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="920" filter="url(#grain)" opacity="0.55"/>
+
+  <g opacity="0.8">
+    <rect x="-50" y="-10" width="1280" height="560" fill="rgba(255,255,255,0.08)"/>
+    <rect x="620" y="0" width="620" height="920" fill="rgba(14, 16, 18, 0.18)"/>
+  </g>
+
+  <g transform="translate(18, 104)">
+    <g transform="translate(680 30)">
+      <rect x="3" y="35" width="310" height="220" rx="18" fill="rgba(255,255,255,0.25)"/>
+      <g transform="translate(38 42)">
+        <circle cx="82" cy="82" r="48" fill="rgba(255,255,255,0.75)"/>
+        <path d="M53 82h58v18H53z" fill="rgba(19, 67, 58, 0.86)"/>
+        <path d="M82 40v84" stroke="rgba(19, 67, 58, 0.8)" stroke-width="12" stroke-linecap="round"/>
+        <path d="M48 82h68" stroke="rgba(19, 67, 58, 0.8)" stroke-width="12" stroke-linecap="round"/>
+      </g>
+      <text x="175" y="110" fill="#0a2d2a" font-size="28" font-family="Arial, sans-serif" font-weight="700" textLength="170">PROVINCIAL</text>
+      <text x="175" y="160" fill="#0a2d2a" font-size="28" font-family="Arial, sans-serif" font-weight="700" textLength="170">HOSPITAL</text>
+      <text x="175" y="210" fill="#0a2d2a" font-size="28" font-family="Arial, sans-serif" font-weight="700" textLength="150">PANTUKAN</text>
+    </g>
+
+    <g transform="translate(140 110)">
+      <path d="M0 620 C120 420, 440 540, 560 610 L560 760 L0 760 Z" fill="url(#sheet)"/>
+      <path d="M130 640 C220 520, 430 548, 560 610" stroke="#cfd5d4" stroke-width="26" fill="none" opacity="0.7"/>
+      <path d="M200 460 C260 330, 360 278, 460 300 C520 314, 570 380, 590 460" fill="rgba(255,255,255,0.55)"/>
+
+      <g transform="translate(260 240)">
+        <path d="M160 170 C240 20, 310 40, 350 120 C380 180, 355 260, 295 320 C250 362, 175 376, 120 332 C70 292, 64 230, 105 196 C120 183, 136 176, 160 170Z" fill="#d4d2d0"/>
+
+        <path d="M140 200 C158 176, 199 164, 240 174 C322 190, 350 250, 344 312 C338 364, 295 411, 232 434 C180 453, 120 442, 86 402 C48 358, 41 288, 70 244 C90 218, 115 206, 140 200Z" fill="#f4f1ee"/>
+
+        <path d="M182 190 C212 146, 267 143, 304 172 C334 195, 348 233, 337 272 C324 317, 281 352, 231 357 C186 362, 143 343, 117 310 C91 278, 92 224, 124 203 C136 195, 160 191, 182 190Z" fill="#efebe8"/>
+
+        <path d="M163 112 C168 72, 198 52, 228 68 C260 86, 272 124, 265 150 C257 181, 220 200, 184 192 C150 183, 155 145, 163 112Z" fill="#f7f5f4"/>
+
+        <path d="M205 126 C120 180, 95 270, 118 330 C147 416, 228 468, 277 464 C332 457, 392 410, 405 336 C419 255, 375 185, 323 148 C284 119, 245 105, 205 126Z" fill="#f8f6f2"/>
+
+        <g fill="#1a1d1e">
+          <circle cx="233" cy="232" r="10"/>
+          <circle cx="247" cy="250" r="12"/>
+          <circle cx="263" cy="265" r="11"/>
+          <circle cx="281" cy="282" r="11"/>
+          <circle cx="297" cy="302" r="12"/>
+          <path d="M230 298 C200 294, 180 330, 188 360 C202 406, 248 424, 296 412 C332 403, 363 377, 374 342 C382 319, 380 292, 358 284 C333 276, 311 295, 285 306 C258 317, 236 309, 230 298Z" fill="#f4f0ec"/>
+        </g>
+
+        <path d="M82 282 C127 265, 149 281, 166 296" stroke="#d1d0ce" stroke-width="16" stroke-linecap="round" fill="none"/>
+        <path d="M92 332 C136 303, 158 312, 175 322" stroke="#d1d0ce" stroke-width="16" stroke-linecap="round" fill="none"/>
+        <path d="M117 345 C156 312, 187 336, 204 366" stroke="#d1d0ce" stroke-width="16" stroke-linecap="round" fill="none"/>
+      </g>
+
+      <g transform="translate(510 180)">
+        <path d="M50 68 C70 18, 128 10, 176 36 C201 52, 224 92, 228 132 C233 182, 218 230, 186 265 C158 296, 112 314, 78 295 C44 277, 18 246, 10 210 C1 168, 24 110, 50 68Z" fill="#d0d2d3"/>
+        <path d="M82 130 C112 116, 154 122, 176 142 C203 166, 213 212, 190 245 C166 280, 116 294, 82 280 C52 266, 26 238, 28 203 C30 178, 57 144, 82 130Z" fill="#f4f1ee"/>
+        <path d="M76 168 C98 158, 123 155, 148 164" stroke="#1a1d1e" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.24"/>
+        <path d="M96 85 C132 72, 165 92, 170 131" stroke="#e5e3e1" stroke-width="16" stroke-linecap="round" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
